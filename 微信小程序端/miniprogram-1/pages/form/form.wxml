@@ -1,0 +1,74 @@
+<!--pages/form/form.wxml-->
+
+<!--这里用form，name=“nameName1”可以作为form的属性进行
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+
+<form class="page__bd" bindsubmit="formSubmit" bindreset="formReset">
+
+  <view class="section">
+    <view class="section__title">昵称：</view>
+    <input name="inputName" style="background-color: #FFFFFF" placeholder="请在这里输入昵称" />
+  </view>
+
+  <view class="section section_gap">
+    <view class="section__title">选择性别:</view>
+    <radio-group name="radioGender">
+      <label><radio value="男" checked="true"/>男</label>
+      <label><radio value="女"/>女</label>
+    </radio-group>
+  </view>
+
+  <view class="section section_gap">
+    <view class="section__title">选择年龄(拖动滑动条)：</view>
+    <slider value="18" name="sliderAge" show-value ></slider>
+  </view>
+
+  <view class="section">
+    <view class="section__title">手机号：</view>
+    <input name="inputPhone" style="background-color: #FFFFFF" placeholder="请在这里输入手机号" />
+  </view>
+
+  <view class="section section_gap">
+    <view class="section__title">选择爱好(多选):</view>
+    <checkbox-group name="checkboxLikes">
+      <label><checkbox value="checkbox1"/>炸鸡</label>
+      <label><checkbox value="checkbox2"/>动漫</label>
+      <label><checkbox value="checkbox3"/>可乐</label>
+      <label><checkbox value="checkbox2"/>手游</label>
+    </checkbox-group>
+  </view>
+
+  <view class="section">
+    <view class="section__title">地区选择:</view>
+    <picker name="areaPicker" mode="region" bindchange="bindPickerChange" value="{{region}}">
+      <view class="picker"> 当前选择：{{region[0]}}-{{region[1]}}-{{region[2]}} </view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <view class="section__title">时间选择:</view>
+    <picker name="timePicker" mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+      <view class="picker"> 当前选择: {{time}} </view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <view class="section__title">日期选择:</view>
+    <picker name="datePicker" mode="date" value="{{date}}" start="2018-10-20" end="2024-10-20" bindchange="bindDateChange">
+      <view class="picker">当前选择: {{date}}</view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <view class="section__title">上传图片选择:</view>
+    <label ></label>
+    <image name='imageshow' src='{{uploadImg}}' class='img' bindtap="imgUpload" ></image>
+    
+  </view>
+
+  <view class="btn-area" style="">
+    <button form-type="submit" style="flex: 1;height:88rpx;margin-left:10rpx;margin-right:20rpx;">Submit</button>
+    <button form-type="reset" style="flex: 1;height:88rpx;margin-right:10rpx;">Reset</button>
+  </view>
+</form>

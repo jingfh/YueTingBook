@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname" >{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view style=" padding-top:66rpx;">
+    <text class="cur-time" style="margin-left:106rpx;">当前时间</text>
+    <text class="cur-time">\n{{curtime}}</text>
+    <navigator url="../../pages/clock/clock" style="margin-left:72rpx;color:red;font-size:55rpx;">电子时钟</navigator>
+    <!--<include src ="../clock/clock.wxml"/>-->
+  </view>
+
+  
+  <view class="weather" style=" padding-top:66rpx;"> 
+    <text class="cur-time" style="margin-left:174rpx;">当前位置及天气信息</text>
+    <textarea style="border:4rpx blue solid;" value="{{weatherData}}"></textarea> 
+  </view>
+
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+

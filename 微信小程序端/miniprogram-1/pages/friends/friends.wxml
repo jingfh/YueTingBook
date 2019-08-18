@@ -1,0 +1,30 @@
+<!--pages/friends/friends.wxml-->
+
+<navigator url='../selfinfo/selfinfo' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:263rpx;'>1.个人信息详情</navigator>
+
+<navigator url='../for/for' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:258rpx;'>2.{ { } }+for测试</navigator>
+
+<navigator url='../imgfuze/imgfuze' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:263rpx;'>3.图片打马赛克</navigator>
+
+<navigator url='../form/form' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:263rpx;'>4.表单测试页面</navigator>
+
+<navigator url='../text2audio/text2audio' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:263rpx;'>5.文本语音转换</navigator>
+
+<navigator url='../textarea/textarea' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:12rpx;margin-left:242rpx;'>6.文本框填坑之路</navigator>
+
+<navigator url='../search/search' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:263rpx;'>7.百度搜索实现</navigator>
+
+<navigator url='../reader/lilReader' hover-class="navigator-hover"
+  style='color:#b1199a;margin-top:8rpx;margin-left:263rpx;'>8.阅读模式效果</navigator>
+
+
+
+
+

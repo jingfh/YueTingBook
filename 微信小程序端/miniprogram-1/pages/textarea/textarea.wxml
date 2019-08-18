@@ -1,0 +1,14 @@
+<!--pages/textarea/textarea.wxml-->
+<view class="page-body">
+  <button bindtap="changeMaskVisible">切换mask</button>
+  <view class="textarea-wrp">
+    <textarea id="text-area" value="{{txtContent}}" bindinput='txtInput' bindlinechange="textAreaLineChange" wx:if="{{!showMask}}" auto-height />
+    <view class='rich-text' style="{{('height:' + txtHeight + 'px')}}" wx:else>
+      <rich-text nodes="{{txtRealContent}}"></rich-text>
+    </view>
+  </view>
+  <button>Footer</button>
+  <view wx:if="{{showMask}}" bindtap="changeMaskVisible" class="mask">
+    <view class="mask-content"></view>    
+  </view>
+</view>

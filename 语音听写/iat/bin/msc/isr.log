@@ -1,0 +1,798 @@
+============================================================
+Time  2019/08/01 09:47:03 446 
+============================================================
+[2019/08/01 09:47:03 447] isr        1659 isr loaded!  
+[2019/08/01 09:47:03 447] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5809130) 
+[2019/08/01 09:47:03 447] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:47:03 447] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:47:03 447] isr        927  vad_set [in]  
+[2019/08/01 09:47:03 448] isr        962  vad_enable :  true  
+[2019/08/01 09:47:03 448] isr        980  vad_bos :  10000  
+[2019/08/01 09:47:03 448] isr        981  vad_eos :  2000  
+[2019/08/01 09:47:03 448] isr        886  enable_vad [in]  
+[2019/08/01 09:47:03 450] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:47:03 450] isr        921  enable_vad [out]  
+[2019/08/01 09:47:03 450] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:47:03 450] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:47:03 450] isr        1001 cloud_session_begin  
+[2019/08/01 09:47:03 450] isr        1013 unknown  
+[2019/08/01 09:47:03 456] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:47:03 456] isr        1559 286396  2  
+[2019/08/01 09:47:03 456] isr        1569 once_bytes:   6400  
+[2019/08/01 09:47:03 457] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:47:03 457] isr        1559 0  4  
+[2019/08/01 09:47:03 457] isr        1592 aud end, USER  
+[2019/08/01 09:47:03 459] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:03 459] isr        1335 0  nil  2  
+[2019/08/01 09:47:03 463] isr        851  [aud] speech start  
+[2019/08/01 09:47:03 463] isr        798  1  msc  
+[2019/08/01 09:47:03 530] isr        854  [aud] speech end  
+[2019/08/01 09:47:03 532] isr        798  3  msc  
+[2019/08/01 09:47:03 556] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:47:03 624] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:03 624] isr        1335 0  nil  2  
+[2019/08/01 09:47:03 775] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:03 776] isr        1335 0  nil  2  
+[2019/08/01 09:47:03 828] isr        700  cloud_status_cb, eps:  1  
+[2019/08/01 09:47:03 828] isr        798  1  cloud  
+[2019/08/01 09:47:03 828] isr        800  already speech end  
+[2019/08/01 09:47:03 927] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:03 927] isr        1335 0  nil  2  
+[2019/08/01 09:47:04 078] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 078] isr        1335 0  nil  2  
+[2019/08/01 09:47:04 174] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:47:04 174] isr        798  3  cloud  
+[2019/08/01 09:47:04 174] isr        800  already speech end  
+[2019/08/01 09:47:04 174] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:47:04 174] isr        641  process_result call:  cloud  udata(6f2da20) 0  nil  
+[2019/08/01 09:47:04 186] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:47:04 186] isr        641  process_result call:  cloud  udata(6f2d8a0) 0  nil  
+[2019/08/01 09:47:04 230] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 230] isr        1335 0  udata(6f2da20) 0  
+[2019/08/01 09:47:04 381] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 381] isr        1335 0  udata(6f2d8a0) 0  
+[2019/08/01 09:47:04 417] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:47:04 417] isr        641  process_result call:  cloud  udata(6f2dab0) 0  nil  
+[2019/08/01 09:47:04 532] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 532] isr        1335 0  udata(6f2dab0) 0  
+[2019/08/01 09:47:04 684] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 684] isr        1335 0  nil  2  
+[2019/08/01 09:47:04 835] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 835] isr        1335 0  nil  2  
+[2019/08/01 09:47:04 986] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:04 986] isr        1335 0  nil  2  
+[2019/08/01 09:47:05 138] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:05 138] isr        1335 0  nil  2  
+[2019/08/01 09:47:05 289] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:05 289] isr        1335 0  nil  2  
+[2019/08/01 09:47:05 443] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:05 443] isr        1335 0  nil  2  
+[2019/08/01 09:47:05 594] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:05 594] isr        1335 0  nil  2  
+[2019/08/01 09:47:05 746] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:05 746] isr        1335 0  nil  2  
+[2019/08/01 09:47:05 871] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:47:05 871] isr        641  process_result call:  cloud  udata(6f0b7f0) 5  nil  
+[2019/08/01 09:47:05 871] isr        798  3  msc  
+[2019/08/01 09:47:05 871] isr        800  already speech end  
+[2019/08/01 09:47:05 897] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:05 897] isr        1335 0  udata(6f0b7f0) 5  
+============================================================
+Time  2019/08/01 09:47:30 793 
+============================================================
+[2019/08/01 09:47:30 795] isr        1659 isr loaded!  
+[2019/08/01 09:47:30 796] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5328df0) 
+[2019/08/01 09:47:30 796] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:47:30 796] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:47:30 796] isr        927  vad_set [in]  
+[2019/08/01 09:47:30 796] isr        962  vad_enable :  true  
+[2019/08/01 09:47:30 796] isr        980  vad_bos :  10000  
+[2019/08/01 09:47:30 796] isr        981  vad_eos :  2000  
+[2019/08/01 09:47:30 796] isr        886  enable_vad [in]  
+[2019/08/01 09:47:30 799] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:47:30 799] isr        921  enable_vad [out]  
+[2019/08/01 09:47:30 799] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:47:30 799] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:47:30 799] isr        1001 cloud_session_begin  
+[2019/08/01 09:47:30 799] isr        1013 unknown  
+[2019/08/01 09:47:30 802] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:47:30 802] isr        1559 286396  2  
+[2019/08/01 09:47:30 802] isr        1569 once_bytes:   6400  
+[2019/08/01 09:47:30 803] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:47:30 803] isr        1559 0  4  
+[2019/08/01 09:47:30 803] isr        1592 aud end, USER  
+[2019/08/01 09:47:30 805] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:30 805] isr        1335 0  nil  2  
+[2019/08/01 09:47:30 811] isr        851  [aud] speech start  
+[2019/08/01 09:47:30 811] isr        798  1  msc  
+[2019/08/01 09:47:30 895] isr        854  [aud] speech end  
+[2019/08/01 09:47:30 897] isr        798  3  msc  
+[2019/08/01 09:47:30 927] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:47:30 971] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:30 971] isr        1335 0  nil  2  
+[2019/08/01 09:47:31 128] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:31 128] isr        1335 0  nil  2  
+[2019/08/01 09:47:31 259] isr        700  cloud_status_cb, eps:  1  
+[2019/08/01 09:47:31 259] isr        798  1  cloud  
+[2019/08/01 09:47:31 259] isr        800  already speech end  
+[2019/08/01 09:47:31 282] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:31 282] isr        1335 0  nil  2  
+[2019/08/01 09:47:31 404] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:47:31 404] isr        798  3  cloud  
+[2019/08/01 09:47:31 404] isr        800  already speech end  
+[2019/08/01 09:47:31 405] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:47:31 405] isr        641  process_result call:  cloud  udata(6a484b8) 0  nil  
+[2019/08/01 09:47:31 417] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:47:31 417] isr        641  process_result call:  cloud  udata(6a492f8) 0  nil  
+[2019/08/01 09:47:31 436] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:31 436] isr        1335 0  udata(6a484b8) 0  
+[2019/08/01 09:47:31 586] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:31 586] isr        1335 0  udata(6a492f8) 0  
+[2019/08/01 09:47:31 694] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:47:31 694] isr        641  process_result call:  cloud  udata(6a49208) 0  nil  
+[2019/08/01 09:47:31 737] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:31 737] isr        1335 0  udata(6a49208) 0  
+[2019/08/01 09:47:31 890] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:31 890] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 042] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 042] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 193] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 193] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 345] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 345] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 496] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 496] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 648] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 648] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 799] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 799] isr        1335 0  nil  2  
+[2019/08/01 09:47:32 950] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:32 950] isr        1335 0  nil  2  
+[2019/08/01 09:47:33 104] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:33 104] isr        1335 0  nil  2  
+[2019/08/01 09:47:33 255] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:33 255] isr        1335 0  nil  2  
+[2019/08/01 09:47:33 293] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:47:33 293] isr        641  process_result call:  cloud  udata(6a49b38) 5  nil  
+[2019/08/01 09:47:33 293] isr        798  3  msc  
+[2019/08/01 09:47:33 295] isr        800  already speech end  
+[2019/08/01 09:47:33 407] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:47:33 407] isr        1335 0  udata(6a49b38) 5  
+============================================================
+Time  2019/08/01 09:48:09 588 
+============================================================
+[2019/08/01 09:48:09 589] isr        1659 isr loaded!  
+[2019/08/01 09:48:09 589] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(4f685f0) 
+[2019/08/01 09:48:09 589] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:48:09 589] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:48:09 591] isr        927  vad_set [in]  
+[2019/08/01 09:48:09 591] isr        962  vad_enable :  true  
+[2019/08/01 09:48:09 591] isr        980  vad_bos :  10000  
+[2019/08/01 09:48:09 591] isr        981  vad_eos :  2000  
+[2019/08/01 09:48:09 591] isr        886  enable_vad [in]  
+[2019/08/01 09:48:09 592] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:48:09 592] isr        921  enable_vad [out]  
+[2019/08/01 09:48:09 592] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:48:09 592] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:48:09 592] isr        1001 cloud_session_begin  
+[2019/08/01 09:48:09 592] isr        1013 unknown  
+[2019/08/01 09:48:09 595] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:48:09 595] isr        1559 286396  2  
+[2019/08/01 09:48:09 595] isr        1569 once_bytes:   6400  
+[2019/08/01 09:48:09 596] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:48:09 598] isr        1559 0  4  
+[2019/08/01 09:48:09 598] isr        1592 aud end, USER  
+[2019/08/01 09:48:09 598] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:09 598] isr        1335 0  nil  2  
+[2019/08/01 09:48:09 601] isr        851  [aud] speech start  
+[2019/08/01 09:48:09 601] isr        798  1  msc  
+[2019/08/01 09:48:09 664] isr        854  [aud] speech end  
+[2019/08/01 09:48:09 665] isr        798  3  msc  
+[2019/08/01 09:48:09 690] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:48:09 755] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:09 755] isr        1335 0  nil  2  
+[2019/08/01 09:48:09 907] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:09 908] isr        1335 0  nil  2  
+[2019/08/01 09:48:09 953] isr        700  cloud_status_cb, eps:  1  
+[2019/08/01 09:48:09 953] isr        798  1  cloud  
+[2019/08/01 09:48:09 953] isr        800  already speech end  
+[2019/08/01 09:48:10 059] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 059] isr        1335 0  nil  2  
+[2019/08/01 09:48:10 186] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:48:10 186] isr        798  3  cloud  
+[2019/08/01 09:48:10 186] isr        800  already speech end  
+[2019/08/01 09:48:10 187] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:48:10 187] isr        641  process_result call:  cloud  udata(65fc718) 0  nil  
+[2019/08/01 09:48:10 198] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:48:10 198] isr        641  process_result call:  cloud  udata(65fcc58) 0  nil  
+[2019/08/01 09:48:10 211] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 211] isr        1335 0  udata(65fc718) 0  
+[2019/08/01 09:48:10 362] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 362] isr        1335 0  udata(65fcc58) 0  
+[2019/08/01 09:48:10 398] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:48:10 398] isr        641  process_result call:  cloud  udata(65fca48) 0  nil  
+[2019/08/01 09:48:10 515] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 515] isr        1335 0  udata(65fca48) 0  
+[2019/08/01 09:48:10 665] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 665] isr        1335 0  nil  2  
+[2019/08/01 09:48:10 818] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 818] isr        1335 0  nil  2  
+[2019/08/01 09:48:10 970] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:10 970] isr        1335 0  nil  2  
+[2019/08/01 09:48:11 122] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:11 122] isr        1335 0  nil  2  
+[2019/08/01 09:48:11 273] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:11 273] isr        1335 0  nil  2  
+[2019/08/01 09:48:11 427] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:11 427] isr        1335 0  nil  2  
+[2019/08/01 09:48:11 578] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:11 578] isr        1335 0  nil  2  
+[2019/08/01 09:48:11 730] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:11 730] isr        1335 0  nil  2  
+[2019/08/01 09:48:11 881] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:11 881] isr        1335 0  nil  2  
+[2019/08/01 09:48:12 006] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:48:12 006] isr        641  process_result call:  cloud  udata(65fc928) 5  nil  
+[2019/08/01 09:48:12 006] isr        798  3  msc  
+[2019/08/01 09:48:12 006] isr        800  already speech end  
+[2019/08/01 09:48:12 032] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:12 032] isr        1335 0  udata(65fc928) 5  
+============================================================
+Time  2019/08/01 09:48:51 701 
+============================================================
+[2019/08/01 09:48:51 703] isr        1659 isr loaded!  
+[2019/08/01 09:48:51 703] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5a29060) 
+[2019/08/01 09:48:51 703] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:48:51 703] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:48:51 703] isr        927  vad_set [in]  
+[2019/08/01 09:48:51 704] isr        962  vad_enable :  true  
+[2019/08/01 09:48:51 704] isr        980  vad_bos :  10000  
+[2019/08/01 09:48:51 704] isr        981  vad_eos :  2000  
+[2019/08/01 09:48:51 704] isr        886  enable_vad [in]  
+[2019/08/01 09:48:51 706] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:48:51 706] isr        921  enable_vad [out]  
+[2019/08/01 09:48:51 706] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:48:51 706] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:48:51 706] isr        1001 cloud_session_begin  
+[2019/08/01 09:48:51 707] isr        1013 unknown  
+[2019/08/01 09:48:51 710] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:48:51 710] isr        1559 339244  2  
+[2019/08/01 09:48:51 710] isr        1569 once_bytes:   6400  
+[2019/08/01 09:48:51 713] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:48:51 713] isr        1559 0  4  
+[2019/08/01 09:48:51 713] isr        1592 aud end, USER  
+[2019/08/01 09:48:51 713] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:51 713] isr        1335 0  nil  2  
+[2019/08/01 09:48:51 717] isr        851  [aud] speech start  
+[2019/08/01 09:48:51 717] isr        798  1  msc  
+[2019/08/01 09:48:51 789] isr        854  [aud] speech end  
+[2019/08/01 09:48:51 789] isr        798  3  msc  
+[2019/08/01 09:48:51 816] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:48:51 875] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:51 875] isr        1335 0  nil  2  
+[2019/08/01 09:48:52 030] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:52 030] isr        1335 0  nil  2  
+[2019/08/01 09:48:52 039] isr        700  cloud_status_cb, eps:  1  
+[2019/08/01 09:48:52 039] isr        798  1  cloud  
+[2019/08/01 09:48:52 039] isr        800  already speech end  
+[2019/08/01 09:48:52 184] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:52 184] isr        1335 0  nil  2  
+[2019/08/01 09:48:52 285] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:48:52 285] isr        798  3  cloud  
+[2019/08/01 09:48:52 285] isr        800  already speech end  
+[2019/08/01 09:48:52 289] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:48:52 289] isr        641  process_result call:  cloud  udata(7116678) 5  nil  
+[2019/08/01 09:48:52 289] isr        798  3  msc  
+[2019/08/01 09:48:52 289] isr        800  already speech end  
+[2019/08/01 09:48:52 335] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:48:52 335] isr        1335 0  udata(7116678) 5  
+============================================================
+Time  2019/08/01 09:49:31 381 
+============================================================
+[2019/08/01 09:49:31 381] isr        1659 isr loaded!  
+[2019/08/01 09:49:31 381] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(4f189b0) 
+[2019/08/01 09:49:31 381] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:49:31 381] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:49:31 381] isr        927  vad_set [in]  
+[2019/08/01 09:49:31 382] isr        962  vad_enable :  true  
+[2019/08/01 09:49:31 382] isr        980  vad_bos :  10000  
+[2019/08/01 09:49:31 382] isr        981  vad_eos :  2000  
+[2019/08/01 09:49:31 382] isr        886  enable_vad [in]  
+[2019/08/01 09:49:31 384] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:49:31 384] isr        921  enable_vad [out]  
+[2019/08/01 09:49:31 384] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:49:31 384] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:49:31 384] isr        1001 cloud_session_begin  
+[2019/08/01 09:49:31 384] isr        1013 unknown  
+[2019/08/01 09:49:31 388] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:49:31 388] isr        1559 339244  2  
+[2019/08/01 09:49:31 388] isr        1569 once_bytes:   6400  
+[2019/08/01 09:49:31 390] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:49:31 390] isr        1559 0  4  
+[2019/08/01 09:49:31 391] isr        1592 aud end, USER  
+[2019/08/01 09:49:31 391] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:49:31 391] isr        1335 0  nil  2  
+[2019/08/01 09:49:31 395] isr        851  [aud] speech start  
+[2019/08/01 09:49:31 395] isr        798  1  msc  
+[2019/08/01 09:49:31 489] isr        854  [aud] speech end  
+[2019/08/01 09:49:31 490] isr        798  3  msc  
+[2019/08/01 09:49:31 539] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:49:31 556] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:49:31 556] isr        1335 0  nil  2  
+[2019/08/01 09:49:31 710] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:49:31 710] isr        1335 0  nil  2  
+[2019/08/01 09:49:31 760] isr        700  cloud_status_cb, eps:  1  
+[2019/08/01 09:49:31 760] isr        798  1  cloud  
+[2019/08/01 09:49:31 760] isr        800  already speech end  
+[2019/08/01 09:49:31 868] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:49:31 868] isr        1335 0  nil  2  
+[2019/08/01 09:49:32 003] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:49:32 003] isr        798  3  cloud  
+[2019/08/01 09:49:32 003] isr        800  already speech end  
+[2019/08/01 09:49:32 003] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:49:32 003] isr        641  process_result call:  cloud  udata(6587a70) 0  nil  
+[2019/08/01 09:49:32 006] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:49:32 006] isr        641  process_result call:  cloud  udata(6587f80) 5  nil  
+[2019/08/01 09:49:32 007] isr        798  3  msc  
+[2019/08/01 09:49:32 007] isr        800  already speech end  
+[2019/08/01 09:49:32 020] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:49:32 020] isr        1335 0  udata(6587a70) 0  
+[2019/08/01 09:49:32 171] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:49:32 171] isr        1335 0  udata(6587f80) 5  
+============================================================
+Time  2019/08/01 09:50:11 444 
+============================================================
+[2019/08/01 09:50:11 444] isr        1659 isr loaded!  
+[2019/08/01 09:50:11 444] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(4ea91e0) 
+[2019/08/01 09:50:11 444] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:50:11 446] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:50:11 446] isr        927  vad_set [in]  
+[2019/08/01 09:50:11 446] isr        962  vad_enable :  true  
+[2019/08/01 09:50:11 446] isr        980  vad_bos :  10000  
+[2019/08/01 09:50:11 446] isr        981  vad_eos :  2000  
+[2019/08/01 09:50:11 446] isr        886  enable_vad [in]  
+[2019/08/01 09:50:11 447] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:50:11 447] isr        921  enable_vad [out]  
+[2019/08/01 09:50:11 447] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:50:11 447] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:50:11 447] isr        1001 cloud_session_begin  
+[2019/08/01 09:50:11 447] isr        1013 unknown  
+[2019/08/01 09:50:11 450] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:50:11 450] isr        1559 122156  2  
+[2019/08/01 09:50:11 450] isr        1569 once_bytes:   6400  
+[2019/08/01 09:50:11 453] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:50:11 453] isr        1559 0  4  
+[2019/08/01 09:50:11 453] isr        1592 aud end, USER  
+[2019/08/01 09:50:11 453] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:11 453] isr        1335 0  nil  2  
+[2019/08/01 09:50:11 459] isr        851  [aud] speech start  
+[2019/08/01 09:50:11 459] isr        798  1  msc  
+[2019/08/01 09:50:11 480] isr        854  [aud] speech end  
+[2019/08/01 09:50:11 480] isr        798  3  msc  
+[2019/08/01 09:50:11 510] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:50:11 611] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:11 611] isr        1335 0  nil  2  
+[2019/08/01 09:50:11 765] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:11 765] isr        1335 0  nil  2  
+[2019/08/01 09:50:11 915] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:11 915] isr        1335 0  nil  2  
+[2019/08/01 09:50:11 954] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:50:11 954] isr        798  3  cloud  
+[2019/08/01 09:50:11 954] isr        800  already speech end  
+[2019/08/01 09:50:11 954] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:50:11 956] isr        641  process_result call:  cloud  udata(653b6f8) 0  nil  
+[2019/08/01 09:50:11 970] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:50:11 971] isr        641  process_result call:  cloud  udata(653b998) 5  nil  
+[2019/08/01 09:50:11 971] isr        798  3  msc  
+[2019/08/01 09:50:11 971] isr        800  already speech end  
+[2019/08/01 09:50:12 068] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:12 068] isr        1335 0  udata(653b6f8) 0  
+[2019/08/01 09:50:12 220] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:12 220] isr        1335 0  udata(653b998) 5  
+============================================================
+Time  2019/08/01 09:50:42 187 
+============================================================
+[2019/08/01 09:50:42 187] isr        1659 isr loaded!  
+[2019/08/01 09:50:42 187] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(50e8f70) 
+[2019/08/01 09:50:42 187] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:50:42 187] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:50:42 187] isr        927  vad_set [in]  
+[2019/08/01 09:50:42 187] isr        962  vad_enable :  true  
+[2019/08/01 09:50:42 187] isr        980  vad_bos :  10000  
+[2019/08/01 09:50:42 187] isr        981  vad_eos :  2000  
+[2019/08/01 09:50:42 187] isr        886  enable_vad [in]  
+[2019/08/01 09:50:42 190] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:50:42 190] isr        921  enable_vad [out]  
+[2019/08/01 09:50:42 190] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:50:42 190] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:50:42 190] isr        1001 cloud_session_begin  
+[2019/08/01 09:50:42 190] isr        1013 unknown  
+[2019/08/01 09:50:42 194] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:50:42 194] isr        1559 122156  2  
+[2019/08/01 09:50:42 194] isr        1569 once_bytes:   6400  
+[2019/08/01 09:50:42 196] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:50:42 196] isr        1559 0  4  
+[2019/08/01 09:50:42 196] isr        1592 aud end, USER  
+[2019/08/01 09:50:42 196] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:42 196] isr        1335 0  nil  2  
+[2019/08/01 09:50:42 200] isr        851  [aud] speech start  
+[2019/08/01 09:50:42 200] isr        798  1  msc  
+[2019/08/01 09:50:42 220] isr        854  [aud] speech end  
+[2019/08/01 09:50:42 220] isr        798  3  msc  
+[2019/08/01 09:50:42 250] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:50:42 351] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:42 351] isr        1335 0  nil  2  
+[2019/08/01 09:50:42 505] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:42 505] isr        1335 0  nil  2  
+[2019/08/01 09:50:42 657] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:42 657] isr        1335 0  nil  2  
+[2019/08/01 09:50:42 700] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:50:42 700] isr        798  3  cloud  
+[2019/08/01 09:50:42 700] isr        800  already speech end  
+[2019/08/01 09:50:42 701] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:50:42 701] isr        641  process_result call:  cloud  udata(67aa208) 0  nil  
+[2019/08/01 09:50:42 704] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:50:42 704] isr        641  process_result call:  cloud  udata(67aa8f8) 5  nil  
+[2019/08/01 09:50:42 704] isr        798  3  msc  
+[2019/08/01 09:50:42 704] isr        800  already speech end  
+[2019/08/01 09:50:42 809] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:42 809] isr        1335 0  udata(67aa208) 0  
+[2019/08/01 09:50:42 960] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:42 960] isr        1335 0  udata(67aa8f8) 5  
+============================================================
+Time  2019/08/01 09:50:55 213 
+============================================================
+[2019/08/01 09:50:55 213] isr        1659 isr loaded!  
+[2019/08/01 09:50:55 213] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5628630) 
+[2019/08/01 09:50:55 213] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:50:55 213] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:50:55 213] isr        927  vad_set [in]  
+[2019/08/01 09:50:55 213] isr        962  vad_enable :  true  
+[2019/08/01 09:50:55 213] isr        980  vad_bos :  10000  
+[2019/08/01 09:50:55 213] isr        981  vad_eos :  2000  
+[2019/08/01 09:50:55 213] isr        886  enable_vad [in]  
+[2019/08/01 09:50:55 214] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:50:55 216] isr        921  enable_vad [out]  
+[2019/08/01 09:50:55 216] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:50:55 216] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:50:55 216] isr        1001 cloud_session_begin  
+[2019/08/01 09:50:55 216] isr        1013 unknown  
+[2019/08/01 09:50:55 219] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:50:55 220] isr        1559 323672  2  
+[2019/08/01 09:50:55 220] isr        1569 once_bytes:   6400  
+[2019/08/01 09:50:55 223] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:50:55 223] isr        1559 0  4  
+[2019/08/01 09:50:55 223] isr        1592 aud end, USER  
+[2019/08/01 09:50:55 223] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:55 223] isr        1335 0  nil  2  
+[2019/08/01 09:50:55 227] isr        851  [aud] speech start  
+[2019/08/01 09:50:55 227] isr        798  1  msc  
+[2019/08/01 09:50:55 315] isr        854  [aud] speech end  
+[2019/08/01 09:50:55 315] isr        798  3  msc  
+[2019/08/01 09:50:55 349] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:50:55 378] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:55 378] isr        1335 0  nil  2  
+[2019/08/01 09:50:55 542] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:55 543] isr        1335 0  nil  2  
+[2019/08/01 09:50:55 628] isr        700  cloud_status_cb, eps:  1  
+[2019/08/01 09:50:55 628] isr        798  1  cloud  
+[2019/08/01 09:50:55 628] isr        800  already speech end  
+[2019/08/01 09:50:55 696] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:55 696] isr        1335 0  nil  2  
+[2019/08/01 09:50:55 846] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:55 846] isr        1335 0  nil  2  
+[2019/08/01 09:50:55 997] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:55 997] isr        1335 0  nil  2  
+[2019/08/01 09:50:56 101] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:50:56 101] isr        798  3  cloud  
+[2019/08/01 09:50:56 102] isr        800  already speech end  
+[2019/08/01 09:50:56 102] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:50:56 102] isr        641  process_result call:  cloud  udata(6d9c9d8) 0  nil  
+[2019/08/01 09:50:56 115] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:50:56 115] isr        641  process_result call:  cloud  udata(6d9c948) 5  nil  
+[2019/08/01 09:50:56 115] isr        798  3  msc  
+[2019/08/01 09:50:56 115] isr        800  already speech end  
+[2019/08/01 09:50:56 148] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:56 148] isr        1335 0  udata(6d9c9d8) 0  
+[2019/08/01 09:50:56 301] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:50:56 301] isr        1335 0  udata(6d9c948) 5  
+============================================================
+Time  2019/08/01 09:51:19 051 
+============================================================
+[2019/08/01 09:51:19 052] isr        1659 isr loaded!  
+[2019/08/01 09:51:19 052] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(59e8c30) 
+[2019/08/01 09:51:19 052] isr        1537 ASR_MSG_SSB  
+[2019/08/01 09:51:19 052] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 09:51:19 052] isr        927  vad_set [in]  
+[2019/08/01 09:51:19 052] isr        962  vad_enable :  true  
+[2019/08/01 09:51:19 052] isr        980  vad_bos :  10000  
+[2019/08/01 09:51:19 052] isr        981  vad_eos :  2000  
+[2019/08/01 09:51:19 052] isr        886  enable_vad [in]  
+[2019/08/01 09:51:19 055] isr        918  vad enabled!  2000  10000  
+[2019/08/01 09:51:19 055] isr        921  enable_vad [out]  
+[2019/08/01 09:51:19 055] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 09:51:19 055] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 09:51:19 055] isr        1001 cloud_session_begin  
+[2019/08/01 09:51:19 055] isr        1013 unknown  
+[2019/08/01 09:51:19 058] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:51:19 058] isr        1559 139442  2  
+[2019/08/01 09:51:19 059] isr        1569 once_bytes:   6400  
+[2019/08/01 09:51:19 059] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 09:51:19 059] isr        1559 0  4  
+[2019/08/01 09:51:19 059] isr        1592 aud end, USER  
+[2019/08/01 09:51:19 061] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:51:19 061] isr        1335 0  nil  2  
+[2019/08/01 09:51:19 065] isr        851  [aud] speech start  
+[2019/08/01 09:51:19 065] isr        798  1  msc  
+[2019/08/01 09:51:19 092] isr        854  [aud] speech end  
+[2019/08/01 09:51:19 092] isr        798  3  msc  
+[2019/08/01 09:51:19 117] isr        707  cloud_status_cb, start local.  
+[2019/08/01 09:51:19 217] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:51:19 217] isr        1335 0  nil  2  
+[2019/08/01 09:51:19 369] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:51:19 369] isr        1335 0  nil  2  
+[2019/08/01 09:51:19 522] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:51:19 522] isr        1335 0  nil  2  
+[2019/08/01 09:51:19 578] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 09:51:19 578] isr        798  3  cloud  
+[2019/08/01 09:51:19 578] isr        800  already speech end  
+[2019/08/01 09:51:19 578] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 09:51:19 579] isr        641  process_result call:  cloud  udata(71441e0) 0  nil  
+[2019/08/01 09:51:19 582] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 09:51:19 582] isr        641  process_result call:  cloud  udata(703fd00) 5  nil  
+[2019/08/01 09:51:19 582] isr        798  3  msc  
+[2019/08/01 09:51:19 582] isr        800  already speech end  
+[2019/08/01 09:51:19 673] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:51:19 673] isr        1335 0  udata(71441e0) 0  
+[2019/08/01 09:51:19 825] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 09:51:19 825] isr        1335 0  udata(703fd00) 5  
+============================================================
+Time  2019/08/01 10:03:32 128 
+============================================================
+[2019/08/01 10:03:32 128] isr        1659 isr loaded!  
+[2019/08/01 10:03:32 130] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(52b8df0) 
+[2019/08/01 10:03:32 130] isr        1537 ASR_MSG_SSB  
+[2019/08/01 10:03:32 130] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 10:03:32 131] isr        927  vad_set [in]  
+[2019/08/01 10:03:32 131] isr        962  vad_enable :  true  
+[2019/08/01 10:03:32 131] isr        980  vad_bos :  10000  
+[2019/08/01 10:03:32 131] isr        981  vad_eos :  2000  
+[2019/08/01 10:03:32 131] isr        886  enable_vad [in]  
+[2019/08/01 10:03:32 131] isr        918  vad enabled!  2000  10000  
+[2019/08/01 10:03:32 131] isr        921  enable_vad [out]  
+[2019/08/01 10:03:32 131] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 10:03:32 132] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 10:03:32 132] isr        1001 cloud_session_begin  
+[2019/08/01 10:03:32 132] isr        1013 unknown  
+[2019/08/01 10:03:32 135] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 10:03:32 137] isr        1559 139442  2  
+[2019/08/01 10:03:32 137] isr        1569 once_bytes:   6400  
+[2019/08/01 10:03:32 138] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 10:03:32 138] isr        1559 0  4  
+[2019/08/01 10:03:32 138] isr        1592 aud end, USER  
+[2019/08/01 10:03:32 138] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:03:32 138] isr        1335 0  nil  2  
+[2019/08/01 10:03:32 142] isr        851  [aud] speech start  
+[2019/08/01 10:03:32 142] isr        798  1  msc  
+[2019/08/01 10:03:32 167] isr        854  [aud] speech end  
+[2019/08/01 10:03:32 167] isr        798  3  msc  
+[2019/08/01 10:03:32 200] isr        707  cloud_status_cb, start local.  
+[2019/08/01 10:03:32 299] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:03:32 299] isr        1335 0  nil  2  
+[2019/08/01 10:03:32 450] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:03:32 450] isr        1335 0  nil  2  
+[2019/08/01 10:03:32 605] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:03:32 605] isr        1335 0  nil  2  
+[2019/08/01 10:03:32 671] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 10:03:32 671] isr        798  3  cloud  
+[2019/08/01 10:03:32 671] isr        800  already speech end  
+[2019/08/01 10:03:32 671] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 10:03:32 671] isr        641  process_result call:  cloud  udata(685e290) 0  nil  
+[2019/08/01 10:03:32 686] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 10:03:32 686] isr        641  process_result call:  cloud  udata(685e260) 5  nil  
+[2019/08/01 10:03:32 686] isr        798  3  msc  
+[2019/08/01 10:03:32 686] isr        800  already speech end  
+[2019/08/01 10:03:32 756] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:03:32 756] isr        1335 0  udata(685e290) 0  
+[2019/08/01 10:03:32 907] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:03:32 907] isr        1335 0  udata(685e260) 5  
+============================================================
+Time  2019/08/01 10:09:16 450 
+============================================================
+[2019/08/01 10:09:16 450] isr        1659 isr loaded!  
+[2019/08/01 10:09:16 451] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5358eb0) 
+[2019/08/01 10:09:16 451] isr        1537 ASR_MSG_SSB  
+[2019/08/01 10:09:16 451] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/01 10:09:16 451] isr        927  vad_set [in]  
+[2019/08/01 10:09:16 453] isr        962  vad_enable :  true  
+[2019/08/01 10:09:16 453] isr        980  vad_bos :  10000  
+[2019/08/01 10:09:16 453] isr        981  vad_eos :  2000  
+[2019/08/01 10:09:16 453] isr        886  enable_vad [in]  
+[2019/08/01 10:09:16 454] isr        918  vad enabled!  2000  10000  
+[2019/08/01 10:09:16 456] isr        921  enable_vad [out]  
+[2019/08/01 10:09:16 456] isr        987  vad_set [out] | ret =  0  
+[2019/08/01 10:09:16 456] isr        1187 cur_engine_type =   cloud  
+[2019/08/01 10:09:16 456] isr        1001 cloud_session_begin  
+[2019/08/01 10:09:16 456] isr        1013 unknown  
+[2019/08/01 10:09:16 460] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 10:09:16 460] isr        1559 139442  2  
+[2019/08/01 10:09:16 460] isr        1569 once_bytes:   6400  
+[2019/08/01 10:09:16 460] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/01 10:09:16 460] isr        1559 0  4  
+[2019/08/01 10:09:16 461] isr        1592 aud end, USER  
+[2019/08/01 10:09:16 461] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:09:16 461] isr        1335 0  nil  2  
+[2019/08/01 10:09:16 467] isr        851  [aud] speech start  
+[2019/08/01 10:09:16 467] isr        798  1  msc  
+[2019/08/01 10:09:16 493] isr        854  [aud] speech end  
+[2019/08/01 10:09:16 493] isr        798  3  msc  
+[2019/08/01 10:09:16 522] isr        707  cloud_status_cb, start local.  
+[2019/08/01 10:09:16 621] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:09:16 621] isr        1335 0  nil  2  
+[2019/08/01 10:09:16 773] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:09:16 773] isr        1335 0  nil  2  
+[2019/08/01 10:09:16 926] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:09:16 926] isr        1335 0  nil  2  
+[2019/08/01 10:09:17 029] isr        700  cloud_status_cb, eps:  3  
+[2019/08/01 10:09:17 029] isr        798  3  cloud  
+[2019/08/01 10:09:17 029] isr        800  already speech end  
+[2019/08/01 10:09:17 029] isr        662  cloud_rslt_cb status =   0  
+[2019/08/01 10:09:17 029] isr        641  process_result call:  cloud  udata(69d8a38) 0  nil  
+[2019/08/01 10:09:17 032] isr        662  cloud_rslt_cb status =   5  
+[2019/08/01 10:09:17 032] isr        641  process_result call:  cloud  udata(69d8af8) 5  nil  
+[2019/08/01 10:09:17 032] isr        798  3  msc  
+[2019/08/01 10:09:17 032] isr        800  already speech end  
+[2019/08/01 10:09:17 076] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:09:17 076] isr        1335 0  udata(69d8a38) 0  
+[2019/08/01 10:09:17 229] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/01 10:09:17 229] isr        1335 0  udata(69d8af8) 5  
+============================================================
+Time  2019/08/02 08:42:07 815 
+============================================================
+[2019/08/02 08:42:07 815] isr        1659 isr loaded!  
+[2019/08/02 08:42:07 818] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(4f68a70) 
+[2019/08/02 08:42:07 818] isr        1537 ASR_MSG_SSB  
+[2019/08/02 08:42:07 818] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/02 08:42:07 818] isr        927  vad_set [in]  
+[2019/08/02 08:42:07 818] isr        962  vad_enable :  true  
+[2019/08/02 08:42:07 818] isr        980  vad_bos :  10000  
+[2019/08/02 08:42:07 818] isr        981  vad_eos :  2000  
+[2019/08/02 08:42:07 818] isr        886  enable_vad [in]  
+[2019/08/02 08:42:07 819] isr        918  vad enabled!  2000  10000  
+[2019/08/02 08:42:07 819] isr        921  enable_vad [out]  
+[2019/08/02 08:42:07 819] isr        987  vad_set [out] | ret =  0  
+[2019/08/02 08:42:07 819] isr        1187 cur_engine_type =   cloud  
+[2019/08/02 08:42:07 819] isr        1001 cloud_session_begin  
+[2019/08/02 08:42:07 819] isr        1013 unknown  
+[2019/08/02 08:42:07 822] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/02 08:42:07 822] isr        1559 139442  2  
+[2019/08/02 08:42:07 822] isr        1569 once_bytes:   6400  
+[2019/08/02 08:42:07 825] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/02 08:42:07 825] isr        1559 0  4  
+[2019/08/02 08:42:07 825] isr        1592 aud end, USER  
+[2019/08/02 08:42:07 825] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 08:42:07 825] isr        1335 0  nil  2  
+[2019/08/02 08:42:07 829] isr        851  [aud] speech start  
+[2019/08/02 08:42:07 829] isr        798  1  msc  
+[2019/08/02 08:42:07 851] isr        854  [aud] speech end  
+[2019/08/02 08:42:07 851] isr        798  3  msc  
+[2019/08/02 08:42:07 878] isr        707  cloud_status_cb, start local.  
+[2019/08/02 08:42:07 982] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 08:42:07 982] isr        1335 0  nil  2  
+[2019/08/02 08:42:08 134] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 08:42:08 134] isr        1335 0  nil  2  
+[2019/08/02 08:42:08 285] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 08:42:08 285] isr        1335 0  nil  2  
+[2019/08/02 08:42:08 325] isr        700  cloud_status_cb, eps:  3  
+[2019/08/02 08:42:08 325] isr        798  3  cloud  
+[2019/08/02 08:42:08 325] isr        800  already speech end  
+[2019/08/02 08:42:08 326] isr        662  cloud_rslt_cb status =   0  
+[2019/08/02 08:42:08 326] isr        641  process_result call:  cloud  udata(651d160) 0  nil  
+[2019/08/02 08:42:08 342] isr        662  cloud_rslt_cb status =   5  
+[2019/08/02 08:42:08 342] isr        641  process_result call:  cloud  udata(651d1c0) 5  nil  
+[2019/08/02 08:42:08 342] isr        798  3  msc  
+[2019/08/02 08:42:08 342] isr        800  already speech end  
+[2019/08/02 08:42:08 437] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 08:42:08 437] isr        1335 0  udata(651d160) 0  
+[2019/08/02 08:42:08 588] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 08:42:08 588] isr        1335 0  udata(651d1c0) 5  
+============================================================
+Time  2019/08/02 09:02:11 349 
+============================================================
+[2019/08/02 09:02:11 351] isr        1659 isr loaded!  
+[2019/08/02 09:02:11 351] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5ba5e60) 
+[2019/08/02 09:02:11 351] isr        1537 ASR_MSG_SSB  
+[2019/08/02 09:02:11 351] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding =gb2312  nil  
+[2019/08/02 09:02:11 351] isr        927  vad_set [in]  
+[2019/08/02 09:02:11 351] isr        962  vad_enable :  true  
+[2019/08/02 09:02:11 351] isr        980  vad_bos :  10000  
+[2019/08/02 09:02:11 351] isr        981  vad_eos :  2000  
+[2019/08/02 09:02:11 351] isr        886  enable_vad [in]  
+[2019/08/02 09:02:11 352] isr        918  vad enabled!  2000  10000  
+[2019/08/02 09:02:11 352] isr        921  enable_vad [out]  
+[2019/08/02 09:02:11 352] isr        987  vad_set [out] | ret =  0  
+[2019/08/02 09:02:11 352] isr        1187 cur_engine_type =   cloud  
+[2019/08/02 09:02:11 352] isr        1001 cloud_session_begin  
+[2019/08/02 09:02:11 352] isr        1013 unknown  
+[2019/08/02 09:02:11 357] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/02 09:02:11 357] isr        1559 139442  2  
+[2019/08/02 09:02:11 357] isr        1569 once_bytes:   6400  
+[2019/08/02 09:02:11 358] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/02 09:02:11 358] isr        1559 0  4  
+[2019/08/02 09:02:11 358] isr        1592 aud end, USER  
+[2019/08/02 09:02:11 358] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 09:02:11 358] isr        1335 0  nil  2  
+[2019/08/02 09:02:11 362] isr        851  [aud] speech start  
+[2019/08/02 09:02:11 362] isr        798  1  msc  
+[2019/08/02 09:02:11 388] isr        854  [aud] speech end  
+[2019/08/02 09:02:11 388] isr        798  3  msc  
+[2019/08/02 09:02:11 414] isr        707  cloud_status_cb, start local.  
+[2019/08/02 09:02:11 522] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 09:02:11 523] isr        1335 0  nil  2  
+[2019/08/02 09:02:11 674] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 09:02:11 674] isr        1335 0  nil  2  
+[2019/08/02 09:02:11 825] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 09:02:11 825] isr        1335 0  nil  2  
+[2019/08/02 09:02:11 872] isr        700  cloud_status_cb, eps:  3  
+[2019/08/02 09:02:11 872] isr        798  3  cloud  
+[2019/08/02 09:02:11 872] isr        800  already speech end  
+[2019/08/02 09:02:11 874] isr        662  cloud_rslt_cb status =   0  
+[2019/08/02 09:02:11 874] isr        641  process_result call:  cloud  udata(71eece8) 0  nil  
+[2019/08/02 09:02:11 885] isr        662  cloud_rslt_cb status =   5  
+[2019/08/02 09:02:11 885] isr        641  process_result call:  cloud  udata(71eee38) 5  nil  
+[2019/08/02 09:02:11 887] isr        798  3  msc  
+[2019/08/02 09:02:11 887] isr        800  already speech end  
+[2019/08/02 09:02:11 976] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 09:02:11 977] isr        1335 0  udata(71eece8) 0  
+[2019/08/02 09:02:12 128] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 09:02:12 128] isr        1335 0  udata(71eee38) 5  
+============================================================
+Time  2019/08/02 15:03:19 272 
+============================================================
+[2019/08/02 15:03:19 273] isr        1659 isr loaded!  
+[2019/08/02 15:03:19 282] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(a67e6680) 
+[2019/08/02 15:03:19 282] isr        1537 ASR_MSG_SSB  
+[2019/08/02 15:03:19 282] isr        1066 session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = gb2312  nil  
+[2019/08/02 15:03:19 282] isr        927  vad_set [in]  
+[2019/08/02 15:03:19 282] isr        962  vad_enable :  true  
+[2019/08/02 15:03:19 282] isr        980  vad_bos :  10000  
+[2019/08/02 15:03:19 282] isr        981  vad_eos :  2000  
+[2019/08/02 15:03:19 282] isr        886  enable_vad [in]  
+[2019/08/02 15:03:19 283] isr        918  vad enabled!  2000  10000  
+[2019/08/02 15:03:19 283] isr        921  enable_vad [out]  
+[2019/08/02 15:03:19 283] isr        987  vad_set [out] | ret =  0  
+[2019/08/02 15:03:19 283] isr        1187 cur_engine_type =   cloud  
+[2019/08/02 15:03:19 283] isr        1001 cloud_session_begin  
+[2019/08/02 15:03:19 283] isr        1013 unknown  
+[2019/08/02 15:03:19 288] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/02 15:03:19 288] isr        1559 122156  2  
+[2019/08/02 15:03:19 288] isr        1569 once_bytes:   6400  
+[2019/08/02 15:03:19 289] isr        1547 ASR_MSG_AUW,   cloud  
+[2019/08/02 15:03:19 289] isr        1559 0  4  
+[2019/08/02 15:03:19 289] isr        1592 aud end, USER  
+[2019/08/02 15:03:19 289] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 15:03:19 289] isr        1335 0  nil  2  
+[2019/08/02 15:03:19 295] isr        851  [aud] speech start  
+[2019/08/02 15:03:19 295] isr        798  1  msc  
+[2019/08/02 15:03:19 315] isr        854  [aud] speech end  
+[2019/08/02 15:03:19 315] isr        798  3  msc  
+[2019/08/02 15:03:19 540] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 15:03:19 540] isr        1335 0  nil  2  
+[2019/08/02 15:03:19 595] isr        707  cloud_status_cb, start local.  
+[2019/08/02 15:03:19 693] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 15:03:19 693] isr        1335 0  nil  2  
+[2019/08/02 15:03:19 845] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 15:03:19 845] isr        1335 0  nil  2  
+[2019/08/02 15:03:19 960] isr        700  cloud_status_cb, eps:  3  
+[2019/08/02 15:03:19 960] isr        798  3  cloud  
+[2019/08/02 15:03:19 960] isr        800  already speech end  
+[2019/08/02 15:03:19 960] isr        662  cloud_rslt_cb status =   0  
+[2019/08/02 15:03:19 960] isr        641  process_result call:  cloud  udata(a7355178) 0  nil  
+[2019/08/02 15:03:19 973] isr        662  cloud_rslt_cb status =   5  
+[2019/08/02 15:03:19 973] isr        641  process_result call:  cloud  udata(a7355218) 5  nil  
+[2019/08/02 15:03:19 973] isr        798  3  msc  
+[2019/08/02 15:03:19 973] isr        800  already speech end  
+[2019/08/02 15:03:19 996] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 15:03:19 996] isr        1335 0  udata(a7355178) 0  
+[2019/08/02 15:03:20 148] isr        1636 ASR_MSG_GRSLT,   cloud  
+[2019/08/02 15:03:20 148] isr        1335 0  udata(a7355218) 5  

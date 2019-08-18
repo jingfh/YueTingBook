@@ -1,0 +1,64 @@
+/* pages/text2audio/text2audio.wxss */
+
+.section__title{
+  margin-top:16rpx;
+  margin-left:24rpx;
+}
+
+.btn-area{
+  margin-top: 16rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom:10rpx;
+}
+
+.img{
+  width:100rpx;
+  height:100rpx;
+  
+  float:right;
+}
+
+
+
+/**录音**/
+.progress_box {
+  width: 130rpx;
+  height: 130rpx;
+  margin-left: -65rpx;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  border-radius: 50%;
+}
+ 
+.progress_bgs {
+  width: 114rpx;
+  height: 114rpx;
+  background: #fff;
+  border-radius: 50%;
+  margin: 9rpx;
+}
+ 
+ 
+.progress_bg {
+  width: 106rpx;
+  height: 106rpx;
+  margin: 5rpx;
+  position: absolute;
+  background: #444;
+  border-radius: 50%;
+}
+ 
+ 
+ 
+.progress_img {
+  width: 82rpx;
+  height: 82rpx;
+  border-radius: 50%;
+  margin: 12rpx;
+}

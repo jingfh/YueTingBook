@@ -1,0 +1,5 @@
+<template name="first">
+  <view style="">
+    <text style="color:#b1199a;">这是我的第一个模板</text>
+  </view>
+</template>

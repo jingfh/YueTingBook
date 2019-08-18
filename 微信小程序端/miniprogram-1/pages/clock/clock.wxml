@@ -1,0 +1,61 @@
+<!--pages/led/index.wxml-->
+
+
+  <view class='body'>
+  
+    <view class="clock">
+      <view class="digit hours">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{hours[0][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+  
+      <view class="digit hours">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{hours[1][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+  
+      <view class="separator">时</view>
+  
+      <view class="digit minutes">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{minutes[0][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+  
+      <view class="digit minutes">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{minutes[1][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+  
+      <view class="separator">分</view>
+  
+      <view class="digit seconds">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{seconds[0][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+  
+      <view class="digit seconds">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{seconds[1][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+      <view class="separator">秒</view>
+      <view class="digit Millisecond">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{Millisecond[0][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+  
+      <view class="digit Millisecond">
+        <block wx:for="{{[1, 2, 3, 4, 5, 6, 7]}}" wx:key="*this" wx:if="item<=7">
+            <view class="segment {{Millisecond[1][item-1]==1?'on':''}}" data-index='{{item}}'></view>
+        </block>
+      </view>
+    </view>
+    
+  </view>
+

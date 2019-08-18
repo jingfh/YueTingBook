@@ -1,0 +1,19 @@
+<!--pages/searchbaidu/searchbaidu.wxml-->
+<!-- <navbar back home read tag text="{{navigationBarTitle}}"></navbar> -->
+
+<!-- 百度搜索接口-->
+<!-- <web-view src="https://www.baidu.com/s?wd={{keyword}}"></web-view> -->
+
+<!-- 小说搜索接口-->
+<!-- 有参 -->
+<!-- <web-view  src="https://so.88dush.com/search/index.php?search_field=0&q={{keyword}}" bindload="messageShow"
+  wx:if="{{keyword!=''}}"></web-view> -->
+<web-view  src="https://so.88dush.com/search/index.php?q={{keyword}}" bindload="messageShow"
+  wx:if="{{keyword!='' && url==''}}"></web-view>
+
+<!-- 传参 -->
+<web-view  src="{{url}}" bindload="messageShow"
+  wx:else></web-view>
+
+
+

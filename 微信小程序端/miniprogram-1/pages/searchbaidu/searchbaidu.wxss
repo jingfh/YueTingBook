@@ -1,0 +1,6 @@
+/* pages/searchbaidu/searchbaidu.wxss */
+
+web-view{
+  padding:0rpx;
+  background-color: yellow;
+}
