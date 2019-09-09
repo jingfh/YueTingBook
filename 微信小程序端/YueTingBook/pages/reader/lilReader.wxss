@@ -1,0 +1,4 @@
+/* pages/reader/lilReader.wxss */
+@import "reader.wxss";
+
+@import "../../template/catelog/catelog.wxss"; 

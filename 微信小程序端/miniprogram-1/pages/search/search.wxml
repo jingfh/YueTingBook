@@ -1,5 +1,0 @@
-<!--pages/search/search.wxml-->
-
-<navbar back home text="{{navigationBarTitle}}"></navbar>
-<view style=""></view>
-<include  src="../../libs/wxSearchView/wxSearchView.wxml" />

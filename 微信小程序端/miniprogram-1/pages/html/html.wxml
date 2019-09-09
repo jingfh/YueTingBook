@@ -1,7 +1,0 @@
-<!--pages/html/html.wxml-->
-
-<import src="../../libs/wxParse/wxParse.wxml" />   
-<view class="content {{tabArr.curBdIndex=='0'? 'active' : ''}}" >
-  <template is="wxParse" data="{{wxParseData:article.nodes}}">
-  </template>
-</view>

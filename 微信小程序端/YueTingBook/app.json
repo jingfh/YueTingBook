@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/reader/lilReader",
+    "pages/search/search",
+    "pages/searchbaidu/searchbaidu"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#959394",
+    "backgroundColor": "#f0f0f0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/search4.png",
+        "selectedIconPath": "pages/images/search8.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "pages/images/search4.png",
+        "selectedIconPath": "pages/images/search8.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/searchbaidu/searchbaidu",
+        "iconPath": "pages/images/search4.png",
+        "selectedIconPath": "pages/images/search8.png",
+        "text": "网页"
+      },
+      {
+        "pagePath": "pages/reader/lilReader",
+        "iconPath": "pages/images/search5.png",
+        "selectedIconPath": "pages/images/search9.png",
+        "text": "阅读"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,20 @@
+<view class="navbar" style="{{'height: ' + navigationBarHeight}}">
+  <view style="{{'height: ' + statusBarHeight}}"></view>
+  <view class='title-container'>
+    <view class='capsule' wx:if="{{ back || home || read || tag }}">
+      <view bindtap='back' wx:if="{{back}}">
+        <image src='img/back.svg'></image>            
+      </view>
+      <view bindtap='backHome' wx:if="{{home}}">
+        <image src='img/home.svg'></image>
+      </view>
+      <view bindtap='reFlush' wx:if="{{read}}">
+        <image src='img/ku1.png'></image>            
+      </view>
+      <view bindtap='insertTag' wx:if="{tag}}">
+        <image src='img/ku5.png'></image>
+      </view>
+    </view>
+    <view class='title'>{{text}}</view>
+  </view>
+</view>

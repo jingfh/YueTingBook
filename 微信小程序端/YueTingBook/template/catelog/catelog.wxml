@@ -1,0 +1,24 @@
+<template name="catelog" >
+  <view class="{{showCatelog?'show':'hide'}}">
+    <view class="catelog-header">
+      <view class='catelog-header-col'>{{title}}</view>
+      <!--<view class='catelog-header-col'>共{{catelogs.length||0}}章</view>-->
+    </view>
+ 
+    <scroll-view class="catelog" scroll-top="{{0}}" style="{{windowHeight-70}}px" scroll-into-view="{{'T'+chapterNo}}" scroll-y="true" >
+      
+      <view style="padding-bottom:69px;">
+        <block class="column"  wx:for="{{chapters}}" wx:for-item="chapter" wx:key="this" >
+          <view id="{{'T'+chapter.No}}" class="row_item {{chapter.No==chapterNo?'hoverText':''}}" bindtap="toReader" 
+            data-Url="{{chapter.Url}}">{{chapter.Name}}</view>
+        </block>
+      </view>
+      <view class="catelog-btn">
+        <view class='catelog-btn-col' bindtap='lastPage'><icon class='iconfont icon-last'/>上一页</view>
+        <view class='catelog-btn-col' bindtap='nextPage'><icon class='iconfont icon-next'/>下一页</view>
+      </view>
+    </scroll-view>
+    <view class='flag' bindtap="changeShowCatelog"></view>
+  </view>
+</template>
+    
