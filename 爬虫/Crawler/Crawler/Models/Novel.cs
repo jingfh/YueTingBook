@@ -12,6 +12,8 @@ namespace Crawler.Models
 
         public string Chapter { get; set; }
 
+        public string ChapterNo { get; set; }
+
         public string Context { get; set; }
 
 
